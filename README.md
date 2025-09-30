@@ -77,24 +77,24 @@ Menambahkan id dan class pada Eksternal CSS.
 ### Jawaban
 
 1. Eksperimen:
-input CSS:
+#### input CSS:
 ![Gambar 1](screenshot/slor18.png).
 
 ![Gambar 1](screenshot/slor19.png).
 
 ![Gambar 1](screenshot/slor20.png).
 
-Ouput:
+#### Ouput:
 ![Gambar 1](screenshot/slor21.png).
 
 2. Perbedaannya itu tag h1 ketika di css maka semua tag h1 yang ada di file akan terkena perubahab dari css yang diberikan. sementara untuk #intro h1 itu tidak semua h1 yang ada di file akan berubah, dan yang mengalami perubahan hanya id dengan #intro h1.
 
 3. Perbedaannya CSS Internal itu CSS yang ditulis/diketik dalam satu file dan tempatnya saya biasa menaruh di bawah tittle.
-Contoh:
+#### Contoh:
 ![Gambar 1](screenshot/slor3.png).
 
 CSS Eksternal itu CSS yang diketik/ditulis di file yang berbeda. jadi harus menggunakan link rel untuk menghubungkan antara file HTML dan CSS. 
-Contoh:
+#### Contoh:
 File html
 ![Gambar 1](screenshot/slor1.png).
 
@@ -102,13 +102,15 @@ File css
 ![Gambar 1](screenshot/slor2.png).
 
 Untuk Inline CSS itu biasanya tag CSS yang langsung diketik dibaris tag HTML seperti (P style="background-color: blue; dst").
-Contoh:
+#### Contoh:
 ![Gambar 1](screenshot/slor4.png).
 
 4. Menurut saya yang akan dideklarasikan CSSnya adalah yang (id), dikarenakan (id) itu lebih spesifik/lebih kuat seperti halnya warna putih(class) ketika dicampur warna lain(id) maka warna yang akan muncul adalah warna lain(id).
 contoh:
-input:
+#### Input:
 ![Gambar 1](screenshot/slor5.png).
+
+#### Output
 
 ![Gambar 1](screenshot/slor6.png).
 
